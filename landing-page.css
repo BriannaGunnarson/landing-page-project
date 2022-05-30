@@ -1,0 +1,130 @@
+body{
+    background-color: #eee;
+}
+
+.top-spacing{
+    margin: 75px;
+}
+
+/*Logo and nav-link formatting*/
+.logo-image{
+    max-width: 300px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar{
+    background-color: #eee;
+    /*position: fixed;*/
+    
+    
+}
+
+a:link{
+    color: black;
+    font-family: "Lato", sans-serif;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    float: right;
+}
+
+/*main Heading words(Handcrafted...ect) plus email and get started button*/
+.heading-words{
+    text-align: center;
+}
+
+h2{
+    font-family: "Lato", sans-serif;
+}
+
+.text-center{
+    margin-top: 15px;
+    font-size: 10pt;
+}
+
+.get-started-button{
+    background-color: #FFBE39;
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 3px 10px 3px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+/*Premium Materials, Fast Shipping, and Quality Assurance Formatting*/
+svg{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p{
+    margin-left: 150px;
+}
+
+/*Video Formatting*/
+.video-col{
+    display: flex;
+    justify-content: center;
+}
+
+.video-format{
+    text-align: center;
+    max-width: 560px;
+    width: 100%;
+    margin-bottom: 75px;
+    margin-top:50px;
+}
+
+/*Three Columns Formating*/
+.title{
+    background-color: #DDD;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 15px;
+}
+
+.box-info{
+    margin: 15px;
+}
+.sale-boxes{
+    border: 1px solid black;
+    padding-bottom: 10px;;
+    border-radius: 3px;
+    font-family: "Lato", sans-serif;
+    margin-bottom:50px;
+}
+
+.button{
+    background-color: #f1c40f;
+    border: none;
+    font-family: "Lato", sans-serif;
+}
+
+.col-sm-12{
+    max-width: 75%;
+}
+
+/*Footer formatting*/
+.footer{
+    background-color: #ddd;
+    padding: 20px;
+    
+}
