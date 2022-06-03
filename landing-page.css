@@ -1,5 +1,6 @@
 body{
     background-color: #eee;
+    
 }
 
 .top-spacing{
@@ -18,9 +19,11 @@ body{
 
 .nav-bar{
     background-color: #eee;
-    /*position: fixed;*/
-    
-    
+    position: sticky;
+    top: 0;
+    opacity: 1.0;
+    z-index: 10;
+     
 }
 
 a:link{
